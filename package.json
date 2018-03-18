@@ -1,0 +1,26 @@
+{
+  "name": "videojs-plugins",
+  "version": "1.0.0",
+  "description": "videojs-plugins",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "author": "holltonliu@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.5.3"
+  },
+  "dependencies": {
+    "video.js": "^6.7.3"
+  }
+}
